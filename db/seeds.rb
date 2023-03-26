@@ -8,10 +8,10 @@ hero3 = Hero.create(name: "Gwen Stacy", super_name: "Spider-Gwen")
 
 # Create  powers
 powers = [
-  { name: 'Super Strength', description: 'Gives the wielder super-human strengths' },
-  { name: 'Flight', description: 'Gives the wielder the ability to fly through the skies at supersonic speed' },
-  { name: 'Invisibility', description: 'Makes the wielder invisible to the naked eye' },
-  { name: 'Teleportation', description: 'Allows the wielder to teleport instantly to any location' }
+  { name: 'Super Strength', description: 'Gives the wielder super-human strengths'},
+  { name: 'Flight', description: 'Gives the wielder the ability to fly through the skies at supersonic speed'},
+  { name: 'Invisibility', description: 'Makes the wielder invisible to the naked eye'},
+  { name: 'Teleportation', description: 'Allows the wielder to teleport instantly to any location'}
 ]
 
 powers.each do |power|
