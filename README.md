@@ -16,8 +16,6 @@ To run this API locally, you must have Ruby and Rails installed on your machine.
 6. Start the Rails server by running `rails s`.
 7. Use a tool like Postman to test the API endpoints.
 
-## Models
-The following relationships have been established between the models:
 
 ## Models
 The following relationships have been established between the models:
