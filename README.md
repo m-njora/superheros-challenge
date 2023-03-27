@@ -1,24 +1,33 @@
-# README
+# Superhero Tracker API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is a Rails API backend for tracking heroes and their superpowers. The API allows users to create, read, update, and delete heroes and powers, as well as create relationships between heroes and powers.
 
-* Ruby version
 
-* System dependencies
+## Installation
 
-* Configuration
+To run this API locally, you must have Ruby and Rails installed on your machine. Once you have those installed, follow these steps:
 
-* Database creation
+1. Clone this repository to your local machine.
+2. Navigate to the root directory of the project in your terminal.
+3. Run `bundle install` to install all necessary gems.
+4. Run `rails db:migrate` to create the necessary database tables.
+5. Run `rails db:seed` to seed the database with sample data.
+6. Start the Rails server by running `rails s`.
+7. Use a tool like Postman to test the API endpoints.
 
-* Database initialization
+## Models
+The following relationships have been established between the models:
 
-* How to run the test suite
+## Models
+The following relationships have been established between the models:
 
-* Services (job queues, cache servers, search engines, etc.)
+## Routes
+The following routes have been implemented:
 
-* Deployment instructions
+### `License`
 
-* ...
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+### `Live Demo`
+You can view a live demo of the app at 
