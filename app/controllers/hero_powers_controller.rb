@@ -6,7 +6,7 @@ class HeroPowersController < ApplicationController
         hero_power = HeroPower.new(hero_power_params)
 
         if hero_power.save
-            render json: hero_power.hero.as_json(include: :powers)
+            render json: hero_power.hero, serializer: HeroSerializer, status: :created
 
         else
             render json: { errors: hero_power.errors.full_messages }, status: :unprocessable_entity
