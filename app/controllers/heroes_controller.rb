@@ -3,7 +3,7 @@ class HeroesController < ApplicationController
 
   def index
     heroes = Hero.all
-    render json: heroes, only: [:id, :name, :super_name]
+    render json: heroes, each_serializer: HeroSerializer
   end
 
   #GET /heroes/:id
