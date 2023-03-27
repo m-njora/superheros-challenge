@@ -3,7 +3,7 @@ class PowersController < ApplicationController
 
   def index
     powers = Power.all
-    render json: powers, only: [:id, :name, :description]
+    render json: powers, each_serializer: PowerSerializer
 
   end
 # GET /powers/:id
