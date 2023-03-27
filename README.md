@@ -39,7 +39,7 @@ Add validations to the `Power` model:
 ## Routes
 The following routes have been implemented:
 
-GET /heroes
+# GET /heroes
 Return JSON data in the format below:
 
 [  
@@ -52,7 +52,7 @@ Return JSON data in the format below:
 
 ]
 
-GET /heroes/:id
+# GET /heroes/:id
 If the `Hero` exists, return JSON data in the format below:
 
 
@@ -80,7 +80,7 @@ the appropriate HTTP status code:
 
 {   "error": "Hero not found" }
 
- GET /powers
+ # GET /powers
 Return JSON data in the format below:
 
 
@@ -98,7 +98,7 @@ Return JSON data in the format below:
 ]
 
 
- GET /powers/:id
+ # GET /powers/:id
 If the `Power` exists, return JSON data in the format below:
 
 ```
@@ -118,7 +118,7 @@ the appropriate HTTP status code:
 }
 ```
 
- PATCH /powers/:id
+ # PATCH /powers/:id
 This route should update an existing `Power`. It should accept an object with
 the following properties in the body of the request:
 
@@ -157,7 +157,7 @@ return the following JSON data, along with the appropriate HTTP status code:
 }
 ```
 
- POST /hero_powers
+# POST /hero_powers
 This route should create a new `HeroPower` that is associated with an
 existing `Power` and `Hero`. It should accept an object with the following
 properties in the body of the request:
